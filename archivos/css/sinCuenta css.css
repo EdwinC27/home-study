@@ -1,0 +1,74 @@
+html {
+    background-color: #CEECF5;
+}
+
+.div {
+    margin-top: 15px; 
+    margin-left: 35%;
+    background-color: #E6E6E6;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    display: inline-block;
+    left: 1000px;
+    width: 350px;
+    height: 560px;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.justificado{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.input {
+    width: 250px;
+    height: 25px;
+}
+
+.chek {
+    width: 10%;
+    height: 20px;
+}
+
+.button {
+    width: 75%;
+    height: 35px;
+    background-color: #0101DF;
+    padding: 5px;
+    padding-left: 4%;
+    color: white;
+    margin-top: 15px;
+}
+
+/* logo */
+img { 
+    margin-top: 15px;
+    margin-left: 28%;
+    padding-right: 30px;
+    width: 150px;
+    height: 120px;
+}
+
+
+/*800*/
+@media only screen and (max-width: 800px){
+    .div {
+        margin-left: 40px;
+        margin-right: 28px; 
+        width: 75%;
+    }
+}
+
+
+/*500*/
+@media only screen and (max-width: 500px){
+    .div {
+        margin-left: 8px;
+        margin-right: 8px; 
+        width: 77%;
+    }
+}

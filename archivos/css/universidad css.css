@@ -1,0 +1,186 @@
+html {
+    text-align: justify;
+    font-size: 20px;
+    background-color: #CEECF5;
+}
+
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}
+
+.tamaño {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+/* barra */
+.barra {
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+.nav .col a{
+    background-color: #088A85;
+}
+
+.div {
+    width: 96.5%;
+    height: 300px;
+    border: solid;
+    border-color: #BDBDBD;
+    border-width: 2px;
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+p {
+    display: inline-block;
+}
+
+.p-1 {
+    display: inline-block;
+    margin-right: 195px;
+}
+
+.p-2 {
+    display: inline-block;
+    margin-right: 115px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.h3-1 {
+    margin-right: 160px;
+}
+
+.h3-2 {
+    margin-right: 160px;
+}
+
+.h3-3 {
+    margin-left: -20px;
+}
+
+.colorSombra {
+    border-top: solid;
+    border-color: #BDBDBD;
+    border-width: 2px;
+
+}
+
+.div2 {
+    width: 96.5%;
+    height: 600px;
+    border: solid;
+    border-color: #BDBDBD;
+    border-width: 2px;
+    background-color: #D8D8D8;
+    padding: 20px;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+
+/* pie de pagina */
+footer {
+    background-color: #8A0886;
+    height: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+/*700*/
+@media only screen and (max-width: 700px){
+    .barra {
+        width: 85%;
+        margin-right: 5px;
+    }
+    
+    .p-1 {
+        margin-right: 100px;
+    }
+    
+    .p-3 {
+        margin-right: 0px;
+    }
+    
+    .h3-1 {
+        margin-right: 70px;
+    }
+    
+    .h3-2 {
+        margin-right: 165px;
+    }
+    
+    .h3-3 {
+        margin-right: 0px;
+    }
+        
+    .div {
+        width: 93%;
+    }
+    
+    .div2 {
+        width: 93%;
+    }
+}
+
+
+/* logo */
+img { 
+    margin-top: 15px;
+    margin-left: 45%;
+    padding-right: 30px;
+    width: 150px;
+    height: 120px;
+}
+
+.button {
+    margin-left: 5%;
+    margin-top: -5px;
+    background-color: #e44c65;
+    padding: 5px;
+    box-shadow: none;
+    color: #ffffff !important;
+}

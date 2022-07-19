@@ -1,0 +1,106 @@
+html {
+    text-align: justify;
+    font-size: 20px;
+    background-color: #CEECF5;
+}
+ 
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}
+
+.tamaño {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+/* pie de pagina */
+footer {
+    background-color: #8A0886;
+    height: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+.barra {
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+.colorSombra {
+    border-top: solid;
+    border-color: #BDBDBD;
+    border-width: 2px;
+
+}
+
+.fondoGeneral {
+    background-color: #E6E6E6;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.fondoSecundario {
+    background-color: #FFFFFF;
+    width: 98%;
+    height: 200px;
+    
+}
+
+/* logo */
+img { 
+    margin-top: 15px;
+    margin-left: 45%;
+    padding-right: 30px;
+    width: 150px;
+    height: 120px;
+}
+
+.button {
+    margin-left: 5%;
+    margin-top: -5px;
+    background-color: #e44c65;
+    padding: 5px;
+    box-shadow: none;
+    color: #ffffff !important;
+}

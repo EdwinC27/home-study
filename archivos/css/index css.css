@@ -1,0 +1,79 @@
+html {
+    background-color: #CEECF5;
+}
+
+.div {
+    margin: 30px;
+    margin-left: 35%;
+    background-color: #E6E6E6;
+    padding: 35px;
+    display: inline-block;
+    left: 1000px;
+    width: 380px;
+    height: 480px;
+    border: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.justificado{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.boton {
+    width: 150px;
+    height: 25px;
+    background-color: #BF00FF;
+    padding: 5px;
+    padding-left: 24%;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+}
+
+.div2 {
+    display: inline-block;
+    left: 900px;
+    width: 390px;
+    height: 490px;
+    padding-left: 65px;
+}
+
+img {
+    width: 67%;
+    height: 160px;
+}
+
+
+/*1000*/
+@media screen and (max-width: 1000px) {
+    .div {
+        margin-left: 23%;
+        width: 50%;
+    }
+}
+
+
+/*700*/
+@media screen and (max-width: 700px){
+    .div {
+        margin-left: 10%;
+        width: 60%;
+    }
+}
+
+
+/*550*/
+@media screen and (max-width: 550px){
+    .div {
+        margin-left: 30px;
+        width: 60%;
+    }
+
+    .div2 {
+        padding-left: 10px;
+    }
+}
